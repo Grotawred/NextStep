@@ -1,0 +1,78 @@
+/* .article {
+    border-radius: 100px;
+    width: max-content;
+
+    .name {
+
+    }
+
+    .info {
+        border-radius: 100px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.05px;
+        background-color: #D0C5B2;
+        width:max-content;
+
+    }
+} */
+
+.article {
+    display: flex; /* Встановлюємо flex-контейнер для організації дочірніх елементів */
+    flex-direction: column; /* Якщо потрібно вертикальне розташування елементів */
+    width: 690px;
+    margin-bottom: 60px;
+
+
+    
+
+    .name {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 13px;
+        margin-bottom: 31px;
+    }
+}
+
+.info {
+    display: flex; 
+    align-items: stretch; 
+    flex-direction: column; 
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    background-color: #D0C5B2;
+    height: 360px;
+
+    img {
+        height: 160px;
+    }
+ 
+
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+    
+}
+
+.art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+    background-color: #D0C5B2;
+    /* padding: 10px;  */
+    overflow: hidden; 
+    padding: 28px 65px;
+    border-radius: 100px;
+    height: fit-content;
+
+    p {
+        margin: 0;
+    }
+}
+

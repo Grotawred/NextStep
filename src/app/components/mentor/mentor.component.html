@@ -1,0 +1,29 @@
+<div class="mentor">
+    <div class="info">
+        <div class="img">
+            <img [src]="image">
+        </div>
+        <div class="text">
+            <div class="main">
+                <div class="name">
+                    {{name}}
+                </div>
+                <div class="rating">
+                    {{rating}}<img [src]="star" alt="btn">
+                </div>
+            </div>
+            <div class="descr">
+                <div class="workplace">
+                    <p class="descr">Місце роботи: {{experience}}.</p>
+                </div>
+                <div class="education">
+                    <p class="descr">Освіта: {{education}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn">
+        <img [src]="mentor_btn" alt="btn">
+    </div>
+</div>

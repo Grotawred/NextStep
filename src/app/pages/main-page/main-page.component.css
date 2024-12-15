@@ -1,0 +1,156 @@
+.arcticle {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+    .description {
+        margin-top: 140px;
+
+
+        width: 449px;
+
+        .title {
+            width: 421px;
+
+            a {
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 48.41px;
+
+            }
+        }
+
+        .descr {
+            font-size: 24px;
+            line-height: 29.05px;
+
+
+        }
+
+        .cta {
+            margin-top: 80px;
+        }
+    }
+
+    .imgs {
+        #fitil {
+            position: absolute;
+            right: 160px;
+            top: 100px;
+        }
+
+        .images {
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            margin-top: 43px;
+            padding: 0 0 0 77px;
+            
+            img {
+                margin: 0 0 0 28px;
+    
+            }
+    
+            .img2 {
+                /* display: flex;
+                justify-content: end;
+                align-items: center; */
+                padding: 203px 0 0 0;
+            }
+        }
+    }
+
+
+}
+
+.mentors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .section {
+        .filters {
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            font-size: 24px;
+            line-height: 29.05px;
+            
+        }
+    
+    
+        .people {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 94px;
+            flex-direction: column;
+    
+            .mentor {
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 70px;
+                gap: 45px;
+    
+                .num {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .pagination {
+        padding-top: 40px;
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #0F1A2C;
+            border-radius: 100px;
+            background-color: #D0C5B2;
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 29.05px;
+            padding-inline-start: 0px;
+
+
+
+            li {
+                padding: 20px;
+                
+
+            }
+
+            li:not(:first-child):not(:last-child){ /* Останній елемент */
+                border-left: 1px solid #0F1A2C; /* Бордер */
+            }
+
+            li:last-child {
+                border-left: 1px solid #0F1A2C;
+            }
+        }
+    }
+
+}
+
+.articles {
+    /* margin-top: 135px; */
+    margin: 61px 124px 0 124px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: start;
+    flex-direction: column;
+}
+
+.articles > :nth-child(2) {
+    align-self: flex-end; /* Вирівнює другий елемент по кінцю */
+}

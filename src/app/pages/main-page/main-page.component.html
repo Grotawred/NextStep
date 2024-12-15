@@ -1,0 +1,95 @@
+<app-header></app-header>
+
+<div class="arcticle">
+    <div class="description">
+        <div class="title">
+                <a>
+                    Ми допоможемо вам з визначенням професії.
+                </a>
+        </div>
+        <div class="descr">
+            <p>Наші ментори розкриють всі найцікавіщі інсайти. </p>
+        </div>
+        <div class="cta">
+            <a class="btn">Знайти ментора</a>
+        </div>
+    </div>
+    <div class="imgs">
+        <img [src]="fitil" id="fitil" alt="img">
+        <div class="images">
+            <div class="img1">
+                <img [src]="image1" id="img1" alt="img">
+            </div>
+            <div class="img2">
+                <img [src]="image2" id="img2" alt="img">
+            </div>
+            <div class="img3">
+                <img [src]="image3" id="img3" alt="img">
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="mentors">
+    <div class="section">
+        <div class="filters">
+            <div class="drop">
+                <a>Напрямок</a>
+                <img [src]="dropdown" alt="img">
+            </div>
+            <div class="drop">
+                <a>Фільтр</a>
+                <img [src]="dropdown" alt="img">
+            </div>
+            
+        </div>
+        <div class="people">
+            <div class="mentor">
+                <p class="num">1.</p>
+                <app-mentor name="Марина" experience="KNESS" education="Приазовський  державний технічний університет (ПДТУ)" image={{mentor1}} rating="5"></app-mentor>
+            </div>
+            <div class="mentor">    
+                <p class="num">2.</p>
+
+                <app-mentor name="Марина" experience="Укргідроенерго" education="Державний біотехнологічний університет" image={{mentor2}} rating="4.8"></app-mentor>
+            </div>
+            <div class="mentor">
+                <p class="num">3.</p>
+
+                <app-mentor name="Алла" experience="ДТЕК Західенерго" education="Вінницький національний технічний університет (ВНТУ)" image={{mentor3}} rating="4.7"></app-mentor>
+            </div>
+        </div>
+    </div>
+
+    <div class="load">
+        <a class="btn">Завантажити ще</a>
+    </div>
+    <div class="pagination">
+        <ul>
+            <li>Назад</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>...</li>
+            <li>28</li>
+            <li>Далі</li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="articles">
+    <app-article id="art1" user="{{ruslana}}" name="ruslana.0_0" image="{{forest}}" arcticle="Відпочинок у природі завжди був важливою частиною здорового способу життя. Однак серед різних типів лісів, хвойні луки мають особливе значення для нашого здоров'я, і це не лише..."></app-article>
+    <app-article id="art2" user="{{alia}}" name="_alia_119" image="{{city}}" arcticle="Архітектура мегаполісів поєднує високу щільність населення, інновації та екологічні рішення."></app-article>
+</div>
+
+<footer>
+    <app-footer></app-footer>
+</footer>
