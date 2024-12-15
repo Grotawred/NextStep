@@ -1,5 +1,5 @@
-export const image1="assets/images/img1.png"
-export const image2="../../../assets/images/img2.png"
+export const image1="/assets/images/img1.png"
+export const image2="assets/images/img2.png"
 export const image3="../../../assets/images/img3.png"
 export const fitil="../../../assets/images/fitil.png"
 export const dropdown="../../../assets/images/dropdown.png"
