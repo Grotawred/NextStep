@@ -95,11 +95,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages",
-          "options": {
-            "repo": "https://github.com/Grotawred/NextStep.git",
-            "outputPath": "dist/front-end"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
         
 
